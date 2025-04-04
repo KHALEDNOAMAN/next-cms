@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_nav_item_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "cast"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "subHeading": {
+      "type": "string",
+      "required": true
+    },
+    "background": {
+      "allowedTypes": [
+        "files",
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
